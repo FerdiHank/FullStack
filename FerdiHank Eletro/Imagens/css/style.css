@@ -1,0 +1,51 @@
+body{
+    
+    background-color: white;
+
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-style: unset;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+
+#menucolor {
+    width: 100%;
+    border: black;
+    color: black;
+}
+ #forma_pagamento {
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+
+ }
+ #table_produtos{
+    border: 1;
+    font-family: Arial, Helvetica, sans-serif;
+     width: 100%;
+     align-items: center;
+     
+ }
+ #img_produtos{
+     size: 2;
+     display: table-cell; 
+     vertical-align: bottom;
+      width: 20%;
+      align-items:center;
+ }
+ 
+ 

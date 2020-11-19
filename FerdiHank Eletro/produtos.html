@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+    <title> Produtos -  FerdiHank Eletro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+       
+</head>
+
+<body>
+     <!--Inicio do menu-->
+     <nav style="width: 500px;">
+        <img class="logo" src="./Imagens/logo.png" alt="logo">
+       <ul id="navegacao"> 
+          <li class="item-menu">
+             </li>
+             <li class="item-menu">
+             <a href="./index.html"> Página Inicial </a>
+             </li>
+             <li class="item-menu">
+              <a href="./produtos.html"> Produtos </a>
+              </li>
+              <li class="item-menu">
+              <a href="./lojas.html"> Nossas Lojas </a>
+              </li>
+             <li class="item-menu">
+             <a href="./contato.html"> Contato </a>
+            </li>
+        </ul>
+    </nav>
+       <!--Fim do menu-->
+       
+
+       <hr>
+       <div class="table_produtos"> <table>
+        <tr>
+         
+           <h4 onclick="exibir_categoria(categorias)">  <b> Categorias</b> </h4> 
+           <ul class="lista-categorias">
+            <li onclick="exibir_categoria(Geladeiras)"> Geladeiras <b> (3) </b> </li>
+            <li onclick="exibir_categoria(Fogões)">  Fogões <b> (2) </b> </li>
+            <li onclick="exibir_categoria(Microondas)">  Microondas <b> (2) </b></li>
+            <li onclick="exibir_categoria(Panelas)">  Panelas Elétricas <b> (2) </b> </li>
+            <li onclick="exibir_categoria(Lavadouras)">  Lavadoura de Roupas <b> (2) </b></li>
+           </ul>
+        </div>
+
+         <div class="produtos">
+
+           <div class="itens">
+             <figure onmouseover="ver_info (this)" onmouseout="esconder_info (this)">
+                 <img src="./Imagens/geladeira-brastemp.jpg" alt="" >
+                 <figcaption class="info" >
+                    <p>Geladeira Brastemp Frost Free Evox-Inverse 540 Litros</p>
+                    <p>R$ 4.949,99</p>
+                 </figcaption>
+             </figure>
+           
+            </div>
+            <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/geladeira-electrolux.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Geladeira Electrolux Frost Free Inox </p>
+                       <p>R$ 1.300,00</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/geladeira-consul.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Geladeira Consul Frost Free Duplex Inox</p>
+                       <p>R$ 1.1799,00</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)" onmouseout="ver_info (this)">
+                    <img src="./Imagens/fogao-consul.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p> Fogão 5 Bocas Consul Inox</p>
+                       <p>R$ 1.599,00</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/fogao-brastemp.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>GFogão 5 Bocas Brastemp Duplo Forno Inox</p>
+                       <p>R$ 2.949,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/cooktop.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Fogao Cooktop 5 Bocas Philco Chef Tripla Chama Preto  </p>
+                       <p>R$ 949,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/microondas-brastempp.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Microondas Brastemp com Grill Ative </p>
+                       <p>R$ 579,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/microondas-philco.webp" alt="">
+                    <figcaption class="legenda">
+                       <p>Microondas Philco Inox </p>
+                       <p>R$ 299,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/panela-arrozphilco.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Panela Elétrica de Arooz Philco 10 Xícaras</p>
+                       <p>R$ 189,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/pressao-philco.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>Panela Elétrica de Pressão Multifuncional Philco 5L</p>
+                       <p>R$ 289,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/lavaroupa-brastemp.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p> Lava Roupa Brastemp Ative Inox 11kg </p>
+                       <p>R$ 1.099,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+               <div class="itens">
+                <figure onmouseover="ver_info (this)">
+                    <img src="./Imagens/lavaeseca-lg.jpg" alt="">
+                    <figcaption class="legenda">
+                       <p>  Lava e Seca LG Prime Touch  </p>
+                       <p>R$ 1.999,99</p>
+                    </figcaption>
+                </figure>
+              
+               </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/geladeira-brastemp.jpg" width="120px">
+         <br>
+         Geladeira Brastemp Frost Free Evox-Inverse 540 Litros  
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 5.499,00 </strike><br>
+                 <b>R$ 4.949,99</b> <br>
+        </td>
+
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/geladeira-electrolux.jpg" width="120px">
+         <br>
+          Geladeira Electrolux Frost Free Inox 
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 2.100,00 </strike>><br>
+                    R$ 1.300,00 <br>
+        </td>
+
+        <td>
+            <td  id="img_produtos" align="center">
+         <img src="./Imagens/geladeira-consul.jpg" width="120px">
+         <br>
+         Geladeira Consul Frost Free Duplex Inox
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 2.500,00 </strike><br>
+           R$ 1.799,00<br>
+        </td>
+
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/fogao-consul.jpg" width="120px">
+         <br>
+         Fogão 5 Bocas Consul Inox
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 2.000,00 </strike><br>
+          R$ 1.599,99   <br>
+        </td>
+        <tr>
+        <td>
+            <td id="img_produtos" align="center">       
+         <img src="./Imagens/fogao-brastemp.jpg" width="120px">
+         <br>
+          Fogão 5 Bocas Brastemp Duplo Forno Inox 
+         <hr>
+         <strike style="color: rgb(200, 0, 1);">R$ 3.499,00 </strike><br>
+         R$ 2.999,99 <br>
+        </td>
+
+        <td>
+            <td id="img_produtos" align="center">       
+         <img src="./Imagens/cooktop.jpg" width="120px">
+         <br>
+          Fogao Cooktop 5 Bocas Philco Chef Tripla Chama Preto  
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 999,99 </strike><br>
+          R$ 749,99 <br>
+        </td>
+
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/microondas-brastempp.jpg" width="120px">
+         <br>
+         Microondas Brastemp com Grill Ative 
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 1.199.99 </strike><br>
+             R$ 749,99 <br>
+        </td>
+
+        <td>
+            <td id="img_produtos" align="center"">
+         <img src="./Imagens/microondas-philco.webp" width="120px">
+         <br>
+          Microondas Philco Inox 
+         <hr>
+          <strike style="color: rgb(200, 0, 1);" >R$ 449,00 </strike><br>
+         </font> R$ 299,99 <br>
+        </td>
+    </tr>
+
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/panela-arrozphilco.jpg" width="120px">
+         <br>
+          Panela Elétrica de Arooz Philco 10 Xícaras
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 215,99 </strike><br>
+          R$ 189,90 <br>
+        </td>
+
+    
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/pressao-philco.jpg" width="120px">
+         <br>
+         Panela Elétrica de Pressão Multifuncional Philco 5L
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 520,90 </strike><br>
+          R$ 419,90 <br>
+        </td>
+        <br>
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/lavaroupa-brastemp.jpg" width="120px">
+         <br>
+          Lava Roupa Brastemp Ative Inox 11kg 
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 1.299,99 </strike><br>
+          R$ 1.099,99 <br>
+        </td>
+        <br>
+        <td>
+            <td id="img_produtos" align="center">
+         <img src="./Imagens/lavaeseca-lg.jpg" width="120px">
+         <br>
+         Lava e Seca LG Prime Touch 
+         <hr>
+          <strike style="color: rgb(200, 0, 1);">R$ 2.299,00 </strike><br>
+         R$ 1.999,99 <br>
+        </td>
+       
+
+        </tr>
+       </table>
+       
+       <br><br><br><br><br>
+       <br><br><br><br><br>
+       <br><br><br><br><br>
+       <center>
+        <span>
+      
+            <h4 style="color: rgb(200, 0, 1);">
+                Formas de Pagamento:</h4>
+        
+        <img src=  "Imagens/formas-pagamento.jpg" width="410px" height="90px" alt="Formas de Pagamento"> 
+    </span>
+    </center>
+    <center>
+
+    Recode Pro
+
+    </center>
+</body>
+</html>

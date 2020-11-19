@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+} 
+ .logo {
+     width: 150px;
+
+ }
+  #navegacao{
+      margin-left: auto;
+      list-style: none;
+  }
+ 
+  .item-menu {
+      display: inline-block;
+      text-align: center;
+  }
+
+  .item-menu a {
+     color: black;
+     text-decoration: none;
+     text-align: center;
+  }
+ 
+    nav img {
+       display: inline-block;
+    }
+
+
+  .table_produtos {
+      width: 2000px;
+     margin-left: 20px;
+     padding-left: 15px;
+     margin-top: 15px;
+     margin-bottom: 115px;
+     border: 1px solid white;
+    
+  }
+
+  .lista-categorias {
+     list-style: none;
+    
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+
+  .produtos{
+     
+      width: 600px;
+      flex-wrap: wrap;
+      display: inline-flex
+  }
+  .itens {
+      width: 150px;
+      display: inline-flex;
+  }
+
+  .itens img{
+      width: 150px;
+  }
+ 
+ .itens figcaption {
+     width: 100px;
+ }
+ 
+ .legenda {
+     visibility: initial;
+ }
+ 
+ 
+ 
+ 
+ /*body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+ 
+}
+#background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.397), rgba(250, 250, 253, 0.644)), url("../Imagens/background_index.jpg");
+    background-size: 100vh;
+    
+}
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-style: unset;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+
+#menucolor {
+    width: 100%;
+    border: black;
+    color: black;
+}
+
+ #table_produtos {
+    border: 2;
+    font-family: Arial, Helvetica, sans-serif;
+     width: 90%;
+     height: 90% 15px;
+     padding-left: 2%;
+     float: top    
+
+
+     
+ }
+ #img_produtos{
+     size: 2;
+     display: table-cell; 
+     vertical-align: bottom;
+      width: 20%;
+      align-items:center;
+ }
+ .lojas {
+     align-items: center;
+     border: 0;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+ 
